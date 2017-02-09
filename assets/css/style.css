@@ -1,12 +1,20 @@
+body {
+	color: black;
+	font-family: Raleway;
+}
+
 html {
 	height: 100%;
-	color: black;
 }
 
 #portfolio {
 	text-align: center;
-	margin-top: 25%;
-	font-family: Lato;
+	margin-top: 30%;
+}
+
+#contact {
+	clear: both;
+	/*margin-top: 50px;*/
 }
 
 #fixed {
@@ -33,6 +41,14 @@ h1 {
 	padding-bottom: 1%;
 }
 
+#position {
+	font-family: Sacramento;
+}
+
+#tagline {
+	font-family: Raleway;
+}
+
 .navbar {
 	background-color: white;
 	border: none;
@@ -45,7 +61,7 @@ h1 {
   /*  border-bottom: 1px solid black;*/
 }
 
-.images {
+.icons {
 	width: 3%;
 }
 
@@ -76,16 +92,10 @@ li:hover {
 	background-color: black;
 	color: white;
 	font-family: Montez;
-	margin: 0%;
 	border: 0%;
 	padding: .5%;
-}
-
-.jumbotron {
-	width: 100%;
-	background-color: white;
 	text-align: center;
-	height: 2000px;
+	clear: both;
 }
 
 #copyright {
@@ -94,4 +104,3 @@ li:hover {
 	font-size: 20px;
 	clear: both;
 }
-
